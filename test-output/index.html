@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-mastertestsuite" class="navigator-link ">
-                    <span>D:\JavaRefresh2024\testcollable\grouping.xml</span>
+                    <span>D:\JavaRefresh2024\testcollable\mastertestsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -136,23 +136,16 @@
         </div> <!-- panel mastertestsuite -->
         <div panel-name="test-xml-mastertestsuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\JavaRefresh2024\testcollable\grouping.xml</span>
+            <span class="header-content">D:\JavaRefresh2024\testcollable\mastertestsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;mastertestsuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;master&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;master&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Browser Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -209,7 +202,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'testCases.TC_001_Login')
-data.setCell(0, 3, 2139);
+data.setCell(0, 3, 2968);
 window.suiteTableData['mastertestsuite']= { tableData: data, tableDiv: 'times-div-mastertestsuite'}
 return data;
 }
@@ -247,11 +240,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">3121 ms</span>
+                <span class="method-start">3070 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">testTeardown</span>
-                <span class="method-start">5264 ms</span>
+                <span class="method-start">6051 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
