@@ -34,7 +34,7 @@ public class TC_001_Login extends testBase.baseClass
 	   else
 	   {
 		   logger.error("Login Test Failed");
-		   Assert.fail("Assertion failed");		   	   
+		   Assert.fail("Assertion failed");		    	   
 	   }
 	   
 	   logger.info("Ending TC_001_Login");
