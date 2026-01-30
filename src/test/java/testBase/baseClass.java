@@ -21,7 +21,8 @@ public class baseClass
 	public Logger logger;
 	public Properties prop;
 	
-	@BeforeClass
+//	groups = {"master", "regression"}
+	@BeforeClass(groups = {"master","sanity"})
 	@Parameters({"browser","os"})
 	public void testSetup(String browser, String os) throws IOException
 	{
@@ -52,7 +53,7 @@ public class baseClass
 	}
 	
 	
-	@AfterClass
+	@AfterClass(groups = {"master","sanity"})
 	public void testTeardown()
 	{
 		System.out.println("From test tear down");

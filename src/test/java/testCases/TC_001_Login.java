@@ -9,7 +9,7 @@ import pageObjects.loginPage;
 public class TC_001_Login extends testBase.baseClass 
 {
 
-	@Test
+	@Test(groups = {"master"})
 	public void loginTest()
 	{
 	

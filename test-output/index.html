@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-mastertestsuite" class="navigator-link">
-              <span class="suite-name border-failed">mastertestsuite</span>
+              <span class="suite-name border-passed">mastertestsuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-mastertestsuite" class="navigator-link ">
-                    <span>D:\JavaRefresh2024\testcollable\mastertestsuite.xml</span>
+                    <span>D:\JavaRefresh2024\testcollable\grouping.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-mastertestsuite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-mastertestsuite" class="hide-methods failed suite-mastertestsuite"> (hide)</a> <!-- hide-methods failed suite-mastertestsuite -->
-                      <a href="#" panel-name="suite-mastertestsuite" class="show-methods failed suite-mastertestsuite"> (show)</a> <!-- show-methods failed suite-mastertestsuite -->
-                    </span>
-                    <div class="method-list-content failed suite-mastertestsuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-mastertestsuite" title="testCases.TC_003_LoginDDT" class="method navigator-link" hash-for-method="loginDDT(, , )">loginDDT(, , )</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-mastertestsuite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,7 @@
                     <div class="method-list-content passed suite-mastertestsuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-mastertestsuite" title="testCases.TC_003_LoginDDT" class="method navigator-link" hash-for-method="loginDDT(ruchatechdesk@gmail.com, Password@1, Valid)">loginDDT(ruchatechdesk@gmail.com, Password@1, Valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-mastertestsuite" title="testCases.TC_001_Login" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-mastertestsuite -->
@@ -132,62 +118,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-mastertestsuite" class="panel mastertestsuite">
-          <div class="suite-mastertestsuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC_003_LoginDDT</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginDDT(, , )">
-                  </a> <!-- loginDDT(, , ) -->
-                  <span class="method-name">loginDDT</span>
-                  <span class="parameters">(,,)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}
-  (Session info: chrome=144.0.7559.110)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b586a008ac446dbeffaa2dc4bce91b7e, findElement {value=email, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\cehar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50670}, goog:processID: 21364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50670/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b586a008ac446dbeffaa2dc4bce91b7e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
-	at pageObjects.loginPage.setUserName(loginPage.java:33)
-	at testCases.TC_003_LoginDDT.loginDDT(TC_003_LoginDDT.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-mastertestsuite-class-failed -->
           <div class="suite-mastertestsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_003_LoginDDT</span>
+              <span class="class-name">testCases.TC_001_Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginDDT(ruchatechdesk@gmail.com, Password@1, Valid)">
-                  </a> <!-- loginDDT(ruchatechdesk@gmail.com, Password@1, Valid) -->
-                  <span class="method-name">loginDDT</span>
-                  <span class="parameters">(ruchatechdesk@gmail.com,Password@1,Valid)</span>
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,18 +136,28 @@ Session ID: b586a008ac446dbeffaa2dc4bce91b7e
         </div> <!-- panel mastertestsuite -->
         <div panel-name="test-xml-mastertestsuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\JavaRefresh2024\testcollable\mastertestsuite.xml</span>
+            <span class="header-content">D:\JavaRefresh2024\testcollable\grouping.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;mastertestsuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;master&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;master&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Browser Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_003_LoginDDT&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_001_Login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Chrome Browser Test --&gt;
 &lt;/suite&gt; &lt;!-- mastertestsuite --&gt;
@@ -230,6 +181,14 @@ Session ID: b586a008ac446dbeffaa2dc4bce91b7e
             <span class="header-content">Groups for mastertestsuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-mastertestsuite" class="panel">
@@ -246,15 +205,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginDDT')
-data.setCell(0, 2, 'testCases.TC_003_LoginDDT')
-data.setCell(0, 3, 2094);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginDDT')
-data.setCell(1, 2, 'testCases.TC_003_LoginDDT')
-data.setCell(1, 3, 36);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'testCases.TC_001_Login')
+data.setCell(0, 3, 2139);
 window.suiteTableData['mastertestsuite']= { tableData: data, tableDiv: 'times-div-mastertestsuite'}
 return data;
 }
@@ -285,24 +240,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_003_LoginDDT</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_001_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">testSetup(chrome, windows)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">loginDDT(ruchatechdesk@gmail.com, Password@1, Valid)</span>
-                <span class="method-start">3945 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginDDT(, , )</span>
-                <span class="method-start">6042 ms</span>
+                <span class="method-name">loginTest</span>
+                <span class="method-start">3121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">testTeardown</span>
-                <span class="method-start">6083 ms</span>
+                <span class="method-start">5264 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
