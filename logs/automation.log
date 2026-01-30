@@ -96,3 +96,18 @@
 2026-01-30 16:24:58 INFO  TC_001_Login:25 - Ending TC_001_Login
 2026-01-30 16:24:58 INFO  TC_001_Login:30 - Login Test Passed
 2026-01-30 16:24:58 INFO  TC_001_Login:32 - Assertion is Passed
+2026-01-30 16:46:43 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 16:48:29 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 16:52:04 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 16:56:36 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:01:10 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:04:00 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:05:26 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:05:47 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:06:54 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:09:42 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:09:43 INFO  TC_003_LoginDDT:15 - Starting of login DDT
+2026-01-30 17:09:45 INFO  TC_003_LoginDDT:15 - Starting of login DDT
+2026-01-30 17:10:00 INFO  TC_003_LoginDDT:51 - URL is opened
+2026-01-30 17:10:01 INFO  TC_003_LoginDDT:15 - Starting of login DDT
+2026-01-30 17:10:03 INFO  TC_003_LoginDDT:15 - Starting of login DDT
