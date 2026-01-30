@@ -1,0 +1,6 @@
+2026-01-28 22:05:30 INFO  TC_001_Login:27 - URL is opened
+2026-01-28 22:05:30 INFO  TC_001_Login:15 - Starting TC_001_Login
+2026-01-28 22:05:30 INFO  TC_001_Login:19 - Provided user name
+2026-01-28 22:05:30 INFO  TC_001_Login:21 - Provided password
+2026-01-28 22:05:32 INFO  TC_001_Login:23 - Clicked on Signin button
+2026-01-28 22:05:32 INFO  TC_001_Login:24 - Ending TC_001_Login
