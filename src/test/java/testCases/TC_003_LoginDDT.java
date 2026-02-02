@@ -21,8 +21,7 @@ public class TC_003_LoginDDT extends baseClass
 		lp.setPassword(pwd);
 		//logger.info("Provided password");
 		lp.clickSignin();
-		//logger.info("Clicked on Signin button");
-			
+		//logger.info("Clicked on Signin button");			
 		//logger.info("Ending of login DDT");
 	}
 }

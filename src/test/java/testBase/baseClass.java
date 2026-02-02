@@ -32,6 +32,7 @@ public class baseClass
 	public void testSetup(String browser, String os) throws IOException
 	{
 		FileReader fr = new FileReader(".\\src\\test\\resources\\config.properties");
+		// all are double back slash in windows path
 		prop = new Properties();
 		prop.load(fr);
 		
@@ -55,6 +56,7 @@ public class baseClass
 //		driver.get("https://test.collable.be/");
 		driver.get(prop.getProperty("url"));
 		logger.info("URL is opened");
+		
 	}
 	
 	
