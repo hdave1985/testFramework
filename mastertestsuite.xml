@@ -7,11 +7,14 @@
 </listeners>
 
   <test thread-count="5" name="Chrome Browser Test">
+  
+  <!-- TP Scheme to remember Test >> Parameter -->
 		<parameter name="browser" value="chrome"></parameter>
 		<parameter name="os" value="windows"></parameter>
+		
  	 	<classes>
 	    <class name="testCases.TC_001_Login"/> 
-	    		  <!--   <class name="testCases.TC_003_LoginDDT"/> -->
+	    		  <!--   <class.  bname="testCases.TC_003_LoginDDT"/> -->
     	</classes>
   </test> <!-- Chrome Browser Test -->
 </suite> <!-- mastertestsuite -->

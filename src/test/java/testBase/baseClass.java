@@ -23,7 +23,7 @@ public class baseClass
 {
 
 	public WebDriver driver;
-	public Logger logger;
+	public Logger logger; // logger is interface log4j.Logger from log4j
 	public Properties prop;
 	
 //	groups = {"master", "regression"}
