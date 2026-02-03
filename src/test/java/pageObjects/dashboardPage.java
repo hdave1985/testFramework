@@ -19,7 +19,7 @@ public class dashboardPage extends basePage
 	@FindBy(xpath = "//span[contains(text(), 'Dashboard')]")	
 	WebElement dashboardLabel;
 	
-	@FindBy(xpath = "//span[contains(text(), 'Tickets')]")	
+	@FindBy(xpath = "//a[normalize-space()='Tickets']")	
 	WebElement ticketsMenu;
 	
 //	action methods

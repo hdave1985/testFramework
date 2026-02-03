@@ -64,7 +64,7 @@ public class baseClass
 	public void testTeardown()
 	{
 		System.out.println("From test tear down");
-		driver.quit();
+//		driver.quit();
 	}
 	
 	

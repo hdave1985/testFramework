@@ -1,8 +1,57 @@
-2026-02-02 19:42:55 INFO  TC_001_Login:57 - URL is opened
-2026-02-02 19:42:55 INFO  TC_001_Login:16 - Starting TC_001_Login
-2026-02-02 19:42:55 INFO  TC_001_Login:20 - Provided user name
-2026-02-02 19:42:55 INFO  TC_001_Login:22 - Provided password
-2026-02-02 19:42:58 INFO  TC_001_Login:24 - Clicked on Signin button
-2026-02-02 19:42:59 INFO  TC_001_Login:30 - Login Test Passed
-2026-02-02 19:42:59 INFO  TC_001_Login:32 - Assertion is Passed
-2026-02-02 19:42:59 INFO  TC_001_Login:40 - Ending TC_001_Login
+2026-02-03 16:14:39 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:14:39 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:14:40 INFO  TC_002_CreateTicket:20 - Provided user name
+2026-02-03 16:14:40 INFO  TC_002_CreateTicket:22 - Provided password
+2026-02-03 16:14:41 INFO  TC_002_CreateTicket:24 - Clicked on Signin button
+2026-02-03 16:24:11 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:24:11 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:24:11 INFO  TC_002_CreateTicket:24 - Provided user name
+2026-02-03 16:24:11 INFO  TC_002_CreateTicket:26 - Provided password
+2026-02-03 16:24:12 INFO  TC_002_CreateTicket:28 - Clicked on Signin button
+2026-02-03 16:25:08 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:25:08 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:25:08 INFO  TC_002_CreateTicket:24 - Provided user name
+2026-02-03 16:25:08 INFO  TC_002_CreateTicket:26 - Provided password
+2026-02-03 16:25:08 INFO  TC_002_CreateTicket:28 - Clicked on Signin button
+2026-02-03 16:26:30 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:26:30 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:26:31 INFO  TC_002_CreateTicket:24 - Provided user name
+2026-02-03 16:26:31 INFO  TC_002_CreateTicket:26 - Provided password
+2026-02-03 16:26:32 INFO  TC_002_CreateTicket:28 - Clicked on Signin button
+2026-02-03 16:29:10 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:29:10 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:29:10 INFO  TC_002_CreateTicket:24 - Provided user name
+2026-02-03 16:29:10 INFO  TC_002_CreateTicket:26 - Provided password
+2026-02-03 16:29:11 INFO  TC_002_CreateTicket:28 - Clicked on Signin button
+2026-02-03 16:29:17 INFO  TC_002_CreateTicket:36 - Clicked on Tickets menu
+2026-02-03 16:29:29 INFO  TC_002_CreateTicket:43 - Clicked on New Ticket button
+2026-02-03 16:29:29 INFO  TC_002_CreateTicket:45 - Entered Ticket Title
+2026-02-03 16:29:29 INFO  TC_002_CreateTicket:47 - Entered First Name
+2026-02-03 16:29:29 INFO  TC_002_CreateTicket:49 - Entered Last Name
+2026-02-03 16:29:30 INFO  TC_002_CreateTicket:51 - Entered Email
+2026-02-03 16:32:05 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:32:05 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:32:05 INFO  TC_002_CreateTicket:24 - Provided user name
+2026-02-03 16:32:05 INFO  TC_002_CreateTicket:26 - Provided password
+2026-02-03 16:32:05 INFO  TC_002_CreateTicket:28 - Clicked on Signin button
+2026-02-03 16:32:11 INFO  TC_002_CreateTicket:36 - Clicked on Tickets menu
+2026-02-03 16:32:17 INFO  TC_002_CreateTicket:43 - Clicked on New Ticket button
+2026-02-03 16:32:17 INFO  TC_002_CreateTicket:45 - Entered Ticket Title
+2026-02-03 16:32:17 INFO  TC_002_CreateTicket:47 - Entered First Name
+2026-02-03 16:32:17 INFO  TC_002_CreateTicket:49 - Entered Last Name
+2026-02-03 16:32:17 INFO  TC_002_CreateTicket:51 - Entered Email
+2026-02-03 16:33:41 INFO  TC_002_CreateTicket:58 - URL is opened
+2026-02-03 16:33:41 INFO  TC_002_CreateTicket:15 - Starting TC_002_CreateTicket
+2026-02-03 16:33:41 INFO  TC_002_CreateTicket:24 - Provided user name
+2026-02-03 16:33:41 INFO  TC_002_CreateTicket:26 - Provided password
+2026-02-03 16:33:42 INFO  TC_002_CreateTicket:28 - Clicked on Signin button
+2026-02-03 16:33:48 INFO  TC_002_CreateTicket:36 - Clicked on Tickets menu
+2026-02-03 16:33:53 INFO  TC_002_CreateTicket:43 - Clicked on New Ticket button
+2026-02-03 16:33:53 INFO  TC_002_CreateTicket:45 - Entered Ticket Title
+2026-02-03 16:33:53 INFO  TC_002_CreateTicket:47 - Entered First Name
+2026-02-03 16:33:53 INFO  TC_002_CreateTicket:49 - Entered Last Name
+2026-02-03 16:33:53 INFO  TC_002_CreateTicket:51 - Entered Email
+2026-02-03 16:33:53 INFO  TC_002_CreateTicket:53 - Selected Priority
+2026-02-03 16:33:54 INFO  TC_002_CreateTicket:55 - Entered Ticket Content
+2026-02-03 16:33:55 INFO  TC_002_CreateTicket:57 - Clicked on Save Ticket button
+2026-02-03 16:33:55 INFO  TC_002_CreateTicket:59 - Ending TC_002_CreateTicket

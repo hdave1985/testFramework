@@ -5,13 +5,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDDT">
+      <class name="testCases.TC_002_CreateTicket">
         <methods>
           <include name="testSetup"/>
-          <include name="loginDDT" invocation-numbers="1"/>
           <include name="testTeardown"/>
+          <include name="createTicketTest"/>
         </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
+      </class> <!-- testCases.TC_002_CreateTicket -->
     </classes>
   </test> <!-- Chrome Browser Test(failed) -->
 </suite> <!-- Failed suite [mastertestsuite] -->

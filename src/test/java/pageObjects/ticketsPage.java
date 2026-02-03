@@ -17,7 +17,7 @@ public class ticketsPage extends basePage
 	}
 	
 	// page elements
-	@FindBy(xpath="//*[contains(text(), '                     New Ticket                 ')]")
+	@FindBy(xpath="//a[normalize-space()='New Ticket']")
 	WebElement btnNewTicket;
 	
 	@FindBy(xpath="//input[@placeholder='Enter ticket title...']")
@@ -32,7 +32,7 @@ public class ticketsPage extends basePage
 	@FindBy(xpath="//input[@placeholder='Email address of person reporting...']")
 	WebElement txtEmail;
 	
-	@FindBy(xpath="//select[@name='assignee_id']")
+	@FindBy(id="priority")
 	WebElement dropdownPriority;
 //	
 	@FindBy(xpath="//div[@class='ql-editor ql-blank']")
@@ -75,7 +75,13 @@ public class ticketsPage extends basePage
 	public void selectPriority()
 	{
 		Select objsel = new Select(dropdownPriority);
-		objsel.selectByVisibleText("High");
+		objsel.selectByIndex(3);
+	}
+	
+	
+	public void setContent(String content)
+	{
+		txtcontent.sendKeys(content);
 	}
 	
 	public void clickSaveTicket()
