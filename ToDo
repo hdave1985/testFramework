@@ -1,0 +1,2 @@
+1. Add the assertion in each test case 
+2. Remove all the thread.sleep and make it dynamic wait
