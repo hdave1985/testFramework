@@ -14,8 +14,8 @@
 		<parameter name="os" value="windows"></parameter>
 		
  	 	<classes>
-	    <class name="testCases.TC_002_CreateTicket"/> 
-	    		  <!--   <class.  bname="testCases.TC_003_LoginDDT"/> -->
+	    <class name="testCases.TC_004_Employee"/> 
+	    <!--   <class.  bname="testCases.TC_003_LoginDDT"/> -->
     	</classes>
   </test> <!-- Chrome Browser Test -->
 </suite> <!-- mastertestsuite -->

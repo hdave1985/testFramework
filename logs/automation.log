@@ -55,3 +55,15 @@
 2026-02-03 16:33:54 INFO  TC_002_CreateTicket:55 - Entered Ticket Content
 2026-02-03 16:33:55 INFO  TC_002_CreateTicket:57 - Clicked on Save Ticket button
 2026-02-03 16:33:55 INFO  TC_002_CreateTicket:59 - Ending TC_002_CreateTicket
+2026-02-03 16:56:18 INFO  TC_004_Employee:58 - URL is opened
+2026-02-03 16:56:18 INFO  TC_004_Employee:16 - ****Starting TC_004_Employee****
+2026-02-03 16:56:18 INFO  TC_004_Employee:24 - Provided user name
+2026-02-03 16:56:18 INFO  TC_004_Employee:26 - Provided password
+2026-02-03 16:56:19 INFO  TC_004_Employee:28 - Clicked on Signin button
+2026-02-03 16:56:25 INFO  TC_004_Employee:33 - Clicked on Employee & Teams link
+2026-02-03 16:56:26 INFO  TC_004_Employee:35 - Clicked on Invite User button
+2026-02-03 16:56:28 INFO  TC_004_Employee:38 - Entered First Name
+2026-02-03 16:56:28 INFO  TC_004_Employee:40 - Entered Last Name
+2026-02-03 16:56:28 INFO  TC_004_Employee:42 - Entered Email
+2026-02-03 16:56:29 INFO  TC_004_Employee:44 - Clicked on Create Employee button
+2026-02-03 16:56:29 INFO  TC_004_Employee:47 - ****Ending TC_004_Employee****
