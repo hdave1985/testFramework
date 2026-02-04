@@ -14,7 +14,7 @@
 		<parameter name="os" value="windows"></parameter>
 		
  	 	<classes>
-	    <class name="testCases.TC_004_Employee"/> 
+	    <class name="testCases.TC_005_Team"/> 
 	    <!--   <class.  bname="testCases.TC_003_LoginDDT"/> -->
     	</classes>
   </test> <!-- Chrome Browser Test -->
