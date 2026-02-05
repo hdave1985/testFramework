@@ -16,7 +16,6 @@ public class loginProvider extends baseClass
 		System.out.println("From data provider");
 		
 		String path = ".\\testData\\Opencart_LoginData.xlsx";
-			
 		
 		Excelutility excel = new Excelutility(path);
 		
