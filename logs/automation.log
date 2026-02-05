@@ -1,53 +1,9 @@
-2026-02-04 15:55:43 INFO  TC_004_Employee:58 - URL is opened
-2026-02-04 15:55:44 INFO  TC_004_Employee:16 - ****Starting TC_004_Employee****
-2026-02-04 15:55:44 INFO  TC_004_Employee:24 - Provided user name
-2026-02-04 15:55:44 INFO  TC_004_Employee:26 - Provided password
-2026-02-04 15:55:44 INFO  TC_004_Employee:28 - Clicked on Signin button
-2026-02-04 15:55:50 INFO  TC_004_Employee:33 - Clicked on Employee & Teams link
-2026-02-04 15:55:50 INFO  TC_004_Employee:35 - Clicked on Invite User button
-2026-02-04 15:55:52 INFO  TC_004_Employee:38 - Entered First Name
-2026-02-04 15:55:52 INFO  TC_004_Employee:40 - Entered Last Name
-2026-02-04 15:55:53 INFO  TC_004_Employee:42 - Entered Email
-2026-02-04 15:55:53 INFO  TC_004_Employee:44 - Clicked on Create Employee button
-2026-02-04 15:55:53 INFO  TC_004_Employee:47 - ****Ending TC_004_Employee****
-2026-02-04 16:49:08 INFO  TC_005_Team:58 - URL is opened
-2026-02-04 16:49:08 INFO  TC_005_Team:17 - ********** Starting TC_005_Team **********
-2026-02-04 16:49:08 INFO  TC_005_Team:24 - Provided user name
-2026-02-04 16:49:08 INFO  TC_005_Team:26 - Provided password
-2026-02-04 16:49:09 INFO  TC_005_Team:28 - Clicked on Signin button
-2026-02-04 16:50:28 INFO  TC_005_Team:58 - URL is opened
-2026-02-04 16:50:28 INFO  TC_005_Team:17 - ********** Starting TC_005_Team **********
-2026-02-04 16:50:28 INFO  TC_005_Team:24 - Provided user name
-2026-02-04 16:50:28 INFO  TC_005_Team:26 - Provided password
-2026-02-04 16:50:29 INFO  TC_005_Team:28 - Clicked on Signin button
-2026-02-04 16:50:35 INFO  TC_005_Team:33 - Clicked on Employees & Teams link
-2026-02-04 16:50:35 INFO  TC_005_Team:35 - Clicked on Teams link
-2026-02-04 16:50:35 INFO  TC_005_Team:37 - Clicked on Add Team button
-2026-02-04 16:50:37 INFO  TC_005_Team:40 - Entered Team Name
-2026-02-04 16:50:37 INFO  TC_005_Team:42 - Selected Manager Name
-2026-02-04 16:50:37 INFO  TC_005_Team:44 - Clicked on Create Team button
-2026-02-04 16:50:37 INFO  TC_005_Team:49 - ********** Ending TC_005_Team **********
-2026-02-04 16:51:13 INFO  TC_005_Team:58 - URL is opened
-2026-02-04 16:51:13 INFO  TC_005_Team:17 - ********** Starting TC_005_Team **********
-2026-02-04 16:51:13 INFO  TC_005_Team:24 - Provided user name
-2026-02-04 16:51:13 INFO  TC_005_Team:26 - Provided password
-2026-02-04 16:51:13 INFO  TC_005_Team:28 - Clicked on Signin button
-2026-02-04 16:51:19 INFO  TC_005_Team:33 - Clicked on Employees & Teams link
-2026-02-04 16:51:19 INFO  TC_005_Team:35 - Clicked on Teams link
-2026-02-04 16:51:19 INFO  TC_005_Team:37 - Clicked on Add Team button
-2026-02-04 16:51:21 INFO  TC_005_Team:40 - Entered Team Name
-2026-02-04 16:51:21 INFO  TC_005_Team:42 - Selected Manager Name
-2026-02-04 16:51:24 INFO  TC_005_Team:45 - Clicked on Create Team button
-2026-02-04 16:51:24 INFO  TC_005_Team:50 - ********** Ending TC_005_Team **********
-2026-02-04 16:56:52 INFO  TC_005_Team:58 - URL is opened
-2026-02-04 16:56:52 INFO  TC_005_Team:17 - ********** Starting TC_005_Team **********
-2026-02-04 16:56:52 INFO  TC_005_Team:24 - Provided user name
-2026-02-04 16:56:52 INFO  TC_005_Team:26 - Provided password
-2026-02-04 16:56:53 INFO  TC_005_Team:28 - Clicked on Signin button
-2026-02-04 16:56:59 INFO  TC_005_Team:33 - Clicked on Employees & Teams link
-2026-02-04 16:56:59 INFO  TC_005_Team:35 - Clicked on Teams link
-2026-02-04 16:56:59 INFO  TC_005_Team:37 - Clicked on Add Team button
-2026-02-04 16:57:01 INFO  TC_005_Team:40 - Entered Team Name
-2026-02-04 16:57:05 INFO  TC_005_Team:43 - Selected Manager Name
-2026-02-04 16:57:08 INFO  TC_005_Team:46 - Clicked on Create Team button
-2026-02-04 16:57:08 INFO  TC_005_Team:51 - ********** Ending TC_005_Team **********
+2026-02-05 23:00:07 INFO  TC_006_deleteTicket:58 - URL is opened
+2026-02-05 23:00:07 INFO  TC_006_deleteTicket:16 - ********** Starting TC_006_deleteTicket **********
+2026-02-05 23:00:08 INFO  TC_006_deleteTicket:24 - Provided user name
+2026-02-05 23:00:08 INFO  TC_006_deleteTicket:26 - Provided password
+2026-02-05 23:00:10 INFO  TC_006_deleteTicket:28 - Clicked on Signin button
+2026-02-05 23:00:16 INFO  TC_006_deleteTicket:33 - Clicked on Tickets menu
+2026-02-05 23:00:18 INFO  TC_006_deleteTicket:36 - Clicked on Delete Ticket button
+2026-02-05 23:00:21 INFO  TC_006_deleteTicket:39 - Clicked on Confirm Delete Ticket button
+2026-02-05 23:00:21 INFO  TC_006_deleteTicket:42 - ********** Ending TC_006_deleteTicket **********
