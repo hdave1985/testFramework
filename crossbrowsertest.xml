@@ -5,21 +5,21 @@
   <test thread-count="5" name="Chrome Browser Test">
 	
 	<parameter name="browser" value="chrome"></parameter>
-  <parameter name="os" value="windows"></parameter>
+    <parameter name="os" value="windows"></parameter>
 
     	 <classes>
-      <class name="testCases.TC_001_Login"/>
-    </classes>
+      				<class name="testCases.TC_001_Login"/>
+    	</classes>
   </test> <!-- Chrome Browser Test -->
   
-  <test thread-count="5" name="Edte Browser Test">
+  <test thread-count="5" name="Edge Browser Test">
 	
 	<parameter name="browser" value="edge"></parameter>
-  <parameter name="os" value="windows"></parameter>
+    <parameter name="os" value="windows"></parameter>
 
     	 <classes>
-      <class name="testCases.TC_001_Login"/>
-    </classes>
+     				<class name="testCases.TC_001_Login"/>
+    	</classes>
   </test>
   
   

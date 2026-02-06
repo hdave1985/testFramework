@@ -36,8 +36,10 @@ public class baseClass
 		prop = new Properties();
 		prop.load(fr);
 		
+		
 		System.out.println("From test setup");
 		logger = LogManager.getLogger(this.getClass());
+		
 		
 		switch (browser.toLowerCase()) 
 		{

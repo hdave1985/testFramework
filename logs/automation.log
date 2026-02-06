@@ -1,9 +1,24 @@
-2026-02-05 23:00:07 INFO  TC_006_deleteTicket:58 - URL is opened
-2026-02-05 23:00:07 INFO  TC_006_deleteTicket:16 - ********** Starting TC_006_deleteTicket **********
-2026-02-05 23:00:08 INFO  TC_006_deleteTicket:24 - Provided user name
-2026-02-05 23:00:08 INFO  TC_006_deleteTicket:26 - Provided password
-2026-02-05 23:00:10 INFO  TC_006_deleteTicket:28 - Clicked on Signin button
-2026-02-05 23:00:16 INFO  TC_006_deleteTicket:33 - Clicked on Tickets menu
-2026-02-05 23:00:18 INFO  TC_006_deleteTicket:36 - Clicked on Delete Ticket button
-2026-02-05 23:00:21 INFO  TC_006_deleteTicket:39 - Clicked on Confirm Delete Ticket button
-2026-02-05 23:00:21 INFO  TC_006_deleteTicket:42 - ********** Ending TC_006_deleteTicket **********
+2026-02-06 17:58:08 INFO  TC_007_KB:60 - URL is opened
+2026-02-06 17:58:08 INFO  TC_007_KB:14 - Starting of TC_007_KB
+2026-02-06 17:58:08 INFO  TC_007_KB:21 - Provided user name
+2026-02-06 17:58:09 INFO  TC_007_KB:23 - Provided password
+2026-02-06 17:58:09 INFO  TC_007_KB:25 - Clicked on Signin button
+2026-02-06 17:58:15 INFO  TC_007_KB:30 - Clicked on Knowledge Base menu
+2026-02-06 17:58:17 INFO  TC_007_KB:35 - Clicked on Create Folder icon
+2026-02-06 17:59:01 INFO  TC_007_KB:60 - URL is opened
+2026-02-06 17:59:01 INFO  TC_007_KB:14 - Starting of TC_007_KB
+2026-02-06 17:59:01 INFO  TC_007_KB:21 - Provided user name
+2026-02-06 17:59:01 INFO  TC_007_KB:23 - Provided password
+2026-02-06 17:59:02 INFO  TC_007_KB:25 - Clicked on Signin button
+2026-02-06 17:59:09 INFO  TC_007_KB:30 - Clicked on Knowledge Base menu
+2026-02-06 17:59:11 INFO  TC_007_KB:35 - Clicked on Create Folder icon
+2026-02-06 18:09:28 INFO  TC_007_KB:60 - URL is opened
+2026-02-06 18:09:28 INFO  TC_007_KB:14 - Starting of TC_007_KB
+2026-02-06 18:09:28 INFO  TC_007_KB:21 - Provided user name
+2026-02-06 18:09:28 INFO  TC_007_KB:23 - Provided password
+2026-02-06 18:09:29 INFO  TC_007_KB:25 - Clicked on Signin button
+2026-02-06 18:09:35 INFO  TC_007_KB:30 - Clicked on Knowledge Base menu
+2026-02-06 18:09:37 INFO  TC_007_KB:35 - Clicked on Create Folder icon
+2026-02-06 18:09:40 INFO  TC_007_KB:39 - Entered folder name
+2026-02-06 18:09:44 INFO  TC_007_KB:43 - Clicked on Create Folder button
+2026-02-06 18:09:46 INFO  TC_007_KB:46 - Ending of TC_007_KB
