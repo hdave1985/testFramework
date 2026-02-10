@@ -27,7 +27,6 @@ public class loginPage extends basePage
 	
 	
 	//Action methods
-	
 	public void setUserName(String email)
 	{
 		txtusername.sendKeys(email);
@@ -42,4 +41,6 @@ public class loginPage extends basePage
 	{
 		btnSignin.click();
 	}
+	
+	
 }

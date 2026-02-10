@@ -5,13 +5,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_007_KB">
+      <class name="testCases.TC_009_FirstTicketAssignment">
         <methods>
+          <include name="firstTicketAssignment"/>
           <include name="testSetup"/>
-          <include name="testKB"/>
           <include name="testTeardown"/>
         </methods>
-      </class> <!-- testCases.TC_007_KB -->
+      </class> <!-- testCases.TC_009_FirstTicketAssignment -->
     </classes>
   </test> <!-- Chrome Browser Test(failed) -->
 </suite> <!-- Failed suite [Master Test Suite] -->

@@ -13,7 +13,7 @@
 		<parameter name="os" value="windows"></parameter>
 		
  	 	<classes>
-			    <class name="testCases.TC_007_KB"/> 
+			    <class name="testCases.TC_009_FirstTicketAssignment"/> 
 			    <!--   <class.  bname="testCases.TC_003_LoginDDT"/> -->
 		   	 </classes>
 		   	 
