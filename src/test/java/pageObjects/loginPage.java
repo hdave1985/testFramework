@@ -40,6 +40,7 @@ public class loginPage extends basePage
 	public void clickSignin()
 	{
 		btnSignin.click();
+		
 	}
 	
 	

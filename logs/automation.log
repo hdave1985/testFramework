@@ -1,15 +1,14 @@
-2026-02-10 20:29:26 INFO  TC_009_FirstTicketAssignment:62 - URL is opened
-2026-02-10 20:29:26 INFO  TC_009_FirstTicketAssignment:16 - Starting of TC_009_FirstTicketAssignment
-2026-02-10 20:29:26 INFO  TC_009_FirstTicketAssignment:20 - Provided user name
-2026-02-10 20:29:26 INFO  TC_009_FirstTicketAssignment:22 - Provided password
-2026-02-10 20:29:27 INFO  TC_009_FirstTicketAssignment:24 - Clicked on Signin button
-2026-02-10 20:29:50 INFO  TC_009_FirstTicketAssignment:62 - URL is opened
-2026-02-10 20:29:51 INFO  TC_009_FirstTicketAssignment:16 - Starting of TC_009_FirstTicketAssignment
-2026-02-10 20:29:51 INFO  TC_009_FirstTicketAssignment:20 - Provided user name
-2026-02-10 20:29:51 INFO  TC_009_FirstTicketAssignment:22 - Provided password
-2026-02-10 20:29:52 INFO  TC_009_FirstTicketAssignment:24 - Clicked on Signin button
-2026-02-10 20:29:58 INFO  TC_009_FirstTicketAssignment:31 - Clicked on Main Menu Tickets
-2026-02-10 20:30:01 INFO  TC_009_FirstTicketAssignment:34 - Clicked on First Ticket
-2026-02-10 20:30:03 INFO  TC_009_FirstTicketAssignment:37 - Clicked on Assign button
-2026-02-10 20:30:06 INFO  TC_009_FirstTicketAssignment:40 - Clicked on Tech UAT option
-2026-02-10 20:30:08 INFO  TC_009_FirstTicketAssignment:44 - Ending of TC_009_FirstTicketAssignment
+2026-02-13 17:43:48 INFO  TC_010_AddticketType:62 - URL is opened
+2026-02-13 17:43:48 INFO  TC_010_AddticketType:14 - Starting of TC_010_AddticketType
+2026-02-13 17:43:48 INFO  TC_010_AddticketType:18 - Provided user name
+2026-02-13 17:43:48 INFO  TC_010_AddticketType:20 - Provided password
+2026-02-13 17:43:48 INFO  TC_010_AddticketType:22 - Clicked on Signin button
+2026-02-13 17:44:04 INFO  TC_010_AddticketType:35 - Ending of TC_010_AddticketType
+2026-02-13 18:31:24 INFO  TC_10_uploadKnowledgeBase:62 - URL is opened
+2026-02-13 18:31:24 INFO  TC_10_uploadKnowledgeBase:14 - Starting TC_10_uploadKnowledgeBase test
+2026-02-13 18:31:24 INFO  TC_10_uploadKnowledgeBase:17 - Provided user name
+2026-02-13 18:31:24 INFO  TC_10_uploadKnowledgeBase:19 - Provided password
+2026-02-13 18:31:26 INFO  TC_10_uploadKnowledgeBase:21 - Clicked on Signin button
+2026-02-13 18:31:33 INFO  TC_10_uploadKnowledgeBase:26 - Clicked on Knowledge Base menu
+2026-02-13 18:31:35 INFO  TC_10_uploadKnowledgeBase:29 - Clicked on Global menu
+2026-02-13 18:31:41 INFO  TC_10_uploadKnowledgeBase:34 - Ending of TC_10_uploadKnowledgeBase test
